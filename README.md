@@ -10,3 +10,8 @@ Connect Entity Framework to SQL Server using custom Connection String in upsetti
     "StudentPortal": "Server=localhost;Database=Database name;User Id=sa;Password=123456aA@$;Trusted_Connection=False(In MACOS Docker Container);TrustServerCertificate=True"
   }
 </pre>
+
+Add database into SQL Server Management
+<pre>
+dotnet ef database update [MigrationName]
+</pre>
